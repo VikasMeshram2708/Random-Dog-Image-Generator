@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rando Dog Image Generator!</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Random Dogs Images</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="title text-center">
+      <h3
+        class="rounded container bg-secondary w-50 text-white"
+        style="margin-top: 5rem"
+      >
+        Random Dogs Images
+      </h3>
+    </div>
+
+    <!-- button -->
+    <div class="button text-center go_btn mt-5">
+      <button class="btn btn-lg btn-primary">Go</button>
+      <audio src="chalaJaack.mp4" id="myAudio"></audio>
+      <button class="btn btn-lg btn-primary dnc" onclick="abuseMe()">Please Don't Click</button>
+    </div>
+
+    <!-- cards -->
+    <div class="container" style="width: 50%">
+      <div
+        class="container dogImage-container row row-cols-1 row-cols-md-2 g-4"
+        style="margin-top: 9rem"
+      ></div>
+    </div>
+
+    <script src="index.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
